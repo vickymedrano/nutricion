@@ -105,6 +105,8 @@ body {
         body .testimonios ul li blockquote p {
           color: #fff;
           margin: 2rem; }
+  body .imagen3 {
+    padding-left: 1rem; }
   body .quienessomos {
     background-color: #061b08;
     padding: 20px; }
