@@ -1,0 +1,175 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #272424;
+  margin: 0;
+  padding: 0; }
+  body header {
+    background-color: #061b08;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    height: 25vh; }
+    body header h1 {
+      color: #e6ebe7;
+      font-size: 2rem;
+      margin: 0;
+      width: 60rem;
+      padding: 2rem 2rem;
+      text-align: center;
+      justify-content: center;
+      align-items: center; }
+    body header nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0.5rem;
+      float: right; }
+      body header nav ul li {
+        list-style: none;
+        margin: 0;
+        padding: 0.5rem; }
+        body header nav ul li:hover {
+          border-radius: 40% 60% 42% 58%;
+          transform: translate(2px, 2px);
+          box-shadow: 8px 8px 25px #85c78a; }
+        body header nav ul li span {
+          font-size: 1.5rem;
+          margin-right: 0.7rem; }
+        body header nav ul li a {
+          color: #fff;
+          text-decoration: none; }
+  body .beneficios {
+    background-color: #061b08;
+    padding: 20px;
+    display: flex; }
+    body .beneficios div {
+      flex: 1;
+      margin: 6rem; }
+      body .beneficios div h2 {
+        font-size: 36px;
+        margin: 3rem;
+        margin: 0 0 20px 0;
+        padding: 0;
+        color: #ffff; }
+      body .beneficios div p {
+        color: #ffff;
+        text-align: justify; }
+      body .beneficios div button {
+        background-color: #061b08;
+        border-radius: 10px;
+        padding: 0.25rem;
+        border-color: transparent;
+        margin-top: 0rem;
+        margin-left: 0rem; }
+        body .beneficios div button:hover {
+          box-shadow: .5rem .5rem 1rem #CBE165;
+          transform: translate(-1px, 1px); }
+        body .beneficios div button a {
+          font-size: 1.3rem;
+          font-weight: lighter;
+          color: #CBE165;
+          text-decoration: none; }
+    body .beneficios img {
+      flex: 1;
+      border-radius: 10%; }
+  body section {
+    background-color: #061b08; }
+  body .testimonios {
+    background-color: #061b08;
+    padding: 20px;
+    float: right; }
+    body .testimonios h2 {
+      color: #fff;
+      text-align: center;
+      margin: 1rem; }
+    body .testimonios ul li {
+      display: flex; }
+      body .testimonios ul li blockquote {
+        width: 50vw;
+        font-style: italic;
+        margin: 0 0 20px 0;
+        padding: 0;
+        border-radius: 20px;
+        background-color: #255c2a; }
+        body .testimonios ul li blockquote:hover {
+          transform: translate(2px, 2px);
+          box-shadow: 8px 8px 25px #85c78a;
+          background-color: #061b08; }
+        body .testimonios ul li blockquote img {
+          float: right;
+          margin: 1rem;
+          background-color: #061b08; }
+        body .testimonios ul li blockquote h3 {
+          color: #fff;
+          margin-left: 2rem; }
+        body .testimonios ul li blockquote p {
+          color: #fff;
+          margin: 2rem; }
+  body .quienessomos {
+    background-color: #061b08;
+    padding: 20px; }
+    body .quienessomos div {
+      flex: 1;
+      margin: 6rem; }
+      body .quienessomos div h2 {
+        font-size: 36px;
+        margin: 3rem;
+        margin: 0 0 20px 0;
+        padding: 0;
+        color: #ffff;
+        padding: 2rem; }
+      body .quienessomos div p {
+        color: #ffff;
+        text-align: justify;
+        width: 70%; }
+    body .quienessomos img {
+      flex: 1;
+      border-radius: 10%; }
+  body section {
+    background-color: #061b08; }
+  body .comprar button {
+    background-color: #061b08;
+    border-radius: 10px;
+    padding: 0.25rem;
+    border-color: transparent;
+    margin-top: 0rem;
+    margin-left: 27rem; }
+    body .comprar button:hover {
+      box-shadow: .5rem .5rem 1rem #CBE165;
+      transform: translate(-1px, 1px); }
+    body .comprar button a {
+      font-size: 1.3rem;
+      font-weight: lighter;
+      color: #CBE165;
+      text-decoration: none; }
+  body .comprar ul li {
+    display: inline-block;
+    margin-right: 10px;
+    width: 20rem;
+    border: 3px solid #85c78a99;
+    border-radius: 10%; }
+    body .comprar ul li:hover {
+      background-color: #255c2a;
+      transform: translate(2px, 2px);
+      box-shadow: 8px 8px 25px #85c78a; }
+    body .comprar ul li h4 {
+      color: #fff;
+      text-decoration: none;
+      padding: 1rem;
+      text-align: center; }
+    body .comprar ul li p {
+      padding: 1rem;
+      margin: 0;
+      width: 19rem; }
+  body footer {
+    background-color: #386e3f;
+    color: #fff;
+    padding: 30px;
+    font-size: 14px;
+    bottom: 0;
+    width: 100%; }
+    body footer nav ul li a {
+      color: #fff;
+      text-decoration: none; }
+    body footer ul li a {
+      color: inherit; }

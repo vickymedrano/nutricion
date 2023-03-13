@@ -1,0 +1,246 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #272424;
+    margin: 0;
+    padding: 0;
+
+
+    
+
+    header {
+                     background-color: #061b08;
+                     color: #fff;
+                     padding: 20px;
+                     display: flex;
+                     height: 25vh;
+
+        h1 {
+            color: #e6ebe7;
+            font-size: 2rem;
+            margin: 0;
+            width: 60rem;
+            padding: 2rem 2rem;
+            text-align: center;
+            justify-content: center;
+            align-items: center; }
+
+        nav {
+            ul {
+                list-style: none;
+                margin: 0;
+                padding: 0.5rem;
+                float:right ;
+                
+                li {
+                    list-style: none;
+                    margin: 0;
+                    padding: 0.5rem;
+                    &:hover {
+                        border-radius: 40% 60% 42% 58% ;
+                        transform: translate( 2px, 2px);
+                        box-shadow: (8px 8px 25px  #85c78a)
+
+                    }
+                    span {
+                        font-size: 1.5rem;
+                        margin-right: 0.7rem;
+                       
+                    }
+                    a {
+                        color: #fff;
+                        text-decoration: none;}                    
+                }}}}
+
+
+ .beneficios {
+    background-color: #061b08;
+    padding: 20px;
+    display: flex;
+
+    div {
+        flex: 1;
+        margin: 6rem;
+        h2 {
+            font-size: 36px;
+            margin: 3rem;
+            margin: 0 0 20px 0;
+            padding: 0;
+            color: #ffff;}
+        p {
+            color: #ffff; 
+            text-align: justify;}
+        button {
+                background-color: #061b08;
+                border-radius: 10px;
+                padding: 0.25rem;
+                border-color: transparent;
+                margin-top: 0rem;
+                margin-left: 0rem;
+                    &:hover {                
+                    box-shadow: .5rem .5rem 1rem #CBE165;
+                    transform: translate( -1px, 1px);}
+                 a{
+                    font-size: 1.3rem;
+                    font-weight:lighter ;
+                    color:#CBE165;
+                    text-decoration: none;}
+                        
+                }
+         }
+
+    img {
+        flex: 1;
+        border-radius: 10%;}
+    }
+
+    section { background-color: #061b08}
+
+    
+ .testimonios {
+
+    background-color: #061b08;
+    padding: 20px;
+    float: right; 
+    
+        h2 {
+            color: #fff;
+            text-align: center;
+            margin: 1rem;}
+        ul {
+           
+           li{
+            display: flex;
+
+            blockquote {
+                width: 50vw;
+                font-style: italic;
+                margin: 0 0 20px 0;
+                padding: 0;
+                border-radius: 20px;
+                background-color: #255c2a;
+                &:hover {
+                    transform: translate( 2px, 2px);
+                    box-shadow: (8px 8px 25px  #85c78a);
+                    background-color: #061b08;}
+
+                img {float: right; 
+                    margin: 1rem;
+                    background-color:#061b08;}
+
+                h3 {color: #fff;
+                    margin-left: 2rem}
+
+                p {color: #fff;
+                    margin: 2rem;}
+            }}}}      
+
+            .quienessomos {
+                background-color: #061b08;
+                padding: 20px;
+                           
+                div {
+                    flex: 1;
+                    margin: 6rem;
+                    h2 {
+                        font-size: 36px;
+                        margin: 3rem;
+                        margin: 0 0 20px 0;
+                        padding: 0;
+                        color: #ffff;
+                    padding: 2rem;}
+                    p {
+                        color: #ffff; 
+                        text-align: justify;
+                        width: 70%;}
+                     }
+            
+                img {
+                    flex: 1;
+                    border-radius:10%;}
+                }
+            
+                section { background-color: #061b08}
+
+
+
+            .comprar {
+                button {
+                    background-color: #061b08;
+                    border-radius: 10px;
+                    padding: 0.25rem;
+                    border-color: transparent;
+                    margin-top: 0rem;
+                    margin-left: 27rem;
+                        &:hover {                
+                        box-shadow: .5rem .5rem 1rem #CBE165;
+                        transform: translate( -1px, 1px);}
+                     a{
+                        font-size: 1.3rem;
+                        font-weight:lighter ;
+                        color:#CBE165;
+                        text-decoration: none;}
+                            
+                    }
+                 ul {
+                    li{
+                        
+                        display: inline-block;
+                        margin-right: 10px;
+                        width: 20rem;
+                        border: 3px solid #85c78a99;
+                        border-radius: 10%;
+                        &:hover {
+                            background-color: #255c2a;
+                            transform: translate( 2px, 2px);
+                            box-shadow: (8px 8px 25px  #85c78a)
+                        }
+                       
+                        h4 {
+                            color: #fff;
+                            text-decoration: none;
+                            padding: 1rem;
+                        text-align: center;}
+                      
+                        p {
+                            padding: 1rem;
+                            margin: 0;
+                            width: 19rem;
+
+                        }
+                    }
+                 }
+
+            }
+
+
+            footer {
+                 background-color: #386e3f;
+                 color: #fff;
+                 padding: 30px;
+                 font-size: 14px;
+                 bottom: 0;
+                 width: 100%;
+                 
+                 nav {
+                    ul {
+                        li{
+                            a{ color: #fff;text-decoration: none;
+                            }}}}
+                    ul {
+                        li {
+                            a {
+                                color: inherit; }
+                        }}}
+
+
+}
+
+        
+
+
+
+
+   
+
+
